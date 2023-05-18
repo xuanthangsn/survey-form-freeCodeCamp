@@ -1,0 +1,20 @@
+label {
+    display: block;
+}
+
+h1, p {
+    text-align: center;
+    background-color: aqua;
+}
+
+form {
+    width: 60%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    background-color: bisque;
+    padding: 20px;
+}
+input, select, textarea {
+    width: 100%;
+}
