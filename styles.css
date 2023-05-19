@@ -1,20 +1,52 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-white);
+    line-height: 1.4;
+    background-color: var(--color-darkblue-alpha);
+}
+
+.form-group {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
 label {
     display: block;
 }
 
 h1, p {
     text-align: center;
-    background-color: aqua;
 }
 
 form {
+    background-color: var(--color-darkblue);
     width: 60%;
     min-width: 300px;
     max-width: 600px;
     margin: auto;
-    background-color: bisque;
-    padding: 20px;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
 }
-input, select, textarea {
+.input-field {
+    margin-top: 0.5rem;
+}
+
+input[type="text"],input[type="email"], input[type="number"], select, textarea {
     width: 100%;
+    min-height: 2rem;
+    margin-top: 0.5rem;
+}
+
+.radio-button, .checkbox-button {
+    vertical-align: middle;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 0.5rem 0.5rem 0;
 }
