@@ -46,7 +46,13 @@ input[type="text"],input[type="email"], input[type="number"], select, textarea {
 
 .radio-button, .checkbox-button {
     vertical-align: middle;
-    height: 1.2rem;
-    width: 1.2rem;
-    margin: 0 0.5rem 0.5rem 0;
+    height: 1.3rem;
+    width: 1.3rem;
+    /* margin: 0 0.5rem 0.5rem 0; */
+    /* margin: 0.5rem 0.5rem 0.5rem 0; */
+}
+
+.radio-group, .checkbox-group {
+    /* background-color: #37af65; */
+    margin-bottom: 0.5rem;
 }
